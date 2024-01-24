@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+
+}
+.container
+{
+    height: 300px;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+.in
+{
+    
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+.circle
+{
+    position: relative;
+    height:  100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(green 308deg, rgb(182, 175, 175) 0deg);
+}
+.circle::before
+{
+     content: "";
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: white;
+
+    
+    
+}
+.circle h1{
+    position: relative;
+font-size: 1.5rem;
+}
+
